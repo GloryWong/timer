@@ -16,6 +16,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "predev": "npm run clean",
     "dev": "tsc-watch --sourceMap --onSuccess 'npm run tscrp'",
