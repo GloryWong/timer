@@ -2,8 +2,11 @@
   "name": "@gloxy/timer",
   "version": "0.0.1",
   "description": "timer",
+  "main": "./dist/index.js",
   "author": "Glory Wong Zhaohui <glorywong1001@gmail.com>",
-  "main": "index.js",
+  "exports": {
+    "default": "./dist/index.js"
+  },
   "bugs": "https://github.com/GloryWong/timer/issues",
   "homepage": "https://github.com/GloryWong/timer#readme",
   "repository": {
